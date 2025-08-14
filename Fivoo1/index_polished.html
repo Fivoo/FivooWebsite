@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fivoo.site</title>
+  <link rel="stylesheet" href="style_polished.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<!--<style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7fafc;
+      color: #2d3748;
+    }
+    .navbar {
+      background-color: #1a365d;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .nav-list a {
+      color: #ffffff;
+    }
+    .nav-list a:hover {
+      color: #f6ad55;
+    }
+    .header {
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #ffffff;
+      text-align: center;
+    }
+    .explore-section {
+      background-color: #edf2f7;
+      color: #2d3748;
+    }
+    .service-card {
+      background: #ffffff;
+      color: #2d3748;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .service-card h3 {
+      color: #1a365d;
+    }
+    .service-card i {
+      color: #f6ad55;
+    }
+    .portfolio-section {
+      background-color: #1a365d;
+      color: #ffffff;
+    }
+    .portfolio-card {
+      background-color: #ffffff;
+      color: #2d3748;
+    }
+    footer {
+      background-color: #1a365d;
+      color: #ffffff;
+    }
+    footer a {
+      color: #f6ad55;
+    }
+    footer a:hover {
+      color: #ed8936;
+    }
+    button, .cta {
+      background-color: #f6ad55;
+      color: #1a365d;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover, .cta:hover {
+      background-color: #ed8936;
+    }
+  </style>-->
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo"><img src="logo.png" alt="Logo"></div>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a class="rainbow-text" href="#home">Home</a></li>
+          <li><a class="rainbow-text" href="#features">Services</a></li>
+          <li><a class="rainbow-text" href="#about">About</a></li>
+          <li><a class="rainbow-text" href="#portfolio">Portfolio</a></li>
+          <li><a class="rainbow-text"  href="mailto:fivoo.co@gmail.com">Contact Us</a></li>
+</li>
+        </ul>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="home" class="header">
+    <div  class="header-content">
+      <h1 class="rainbow-text"> Welcome To Fivoo</h1>
+      <h3>We Provide Services</h3>
+      <p class="rainbow-text" style="font-size: xx-large;" id="element"></p>
+    </div>
+  </header>
+
+  <!-- Features -->
+  <section id="features"  class="explore-section">
+    <h2 class="rainbow-text">Explore More Services</h2>
+    <div class="explore-grid">
+    <div class="service-card">
+      <i class="fa-solid fa-code"></i>
+      <h3>Web Development</h3>
+      <p>We build secure, scalable, and visually stunning websites to help your business thrive in the digital age. From landing pages to complex web apps, we’ve got you covered.</p>
+      <div>
+        <span class="service-tech">HTML5</span>
+        <span class="service-tech">CSS3</span>
+        <span class="service-tech">JavaScript</span>
+        <span class="service-tech">React</span>
+        <span class="service-tech">Node.js</span>
+      </div>
+    </div>
+    <div class="service-card">
+      <i class="fa-solid fa-pen-nib"></i>
+      <h3>Graphic Design</h3>
+      <p>We craft brand visuals that communicate your message with clarity and style, from logo creation to complete brand identity systems.</p>
+      <div>
+        <span class="service-tech">Photoshop</span>
+        <span class="service-tech">Illustrator</span>
+        <span class="service-tech">Figma</span>
+      </div>
+    </div>
+    <div class="service-card">
+      <i class="fa-solid fa-video"></i>
+      <h3>Video Editing</h3>
+      <p>We transform raw footage into engaging stories with professional editing, sound design, and motion graphics to captivate your audience.</p>
+      <div>
+        <span class="service-tech">Premiere Pro</span>
+        <span class="service-tech">After Effects</span>
+        <span class="service-tech">DaVinci Resolve</span>
+      </div>
+    </div>
+    <div class="service-card">
+      <i class="fa-solid fa-film"></i>
+      <h3>Animation</h3>
+      <p>We bring your ideas to life with captivating 2D and 3D animations that educate, entertain, and inspire your customers.</p>
+      <div>
+        <span class="service-tech">Blender</span>
+        <span class="service-tech">After Effects</span>
+        <span class="service-tech">Toon Boom</span>
+      </div>
+    </div>
+    <div class="service-card">
+      <i class="fa-solid fa-share-nodes"></i>
+      <h3>Social Media Management</h3>
+      <p>We grow your online presence with targeted content, campaign management, and data-driven strategies tailored to your audience.</p>
+      <div>
+        <span class="service-tech">Meta Ads</span>
+        <span class="service-tech">Hootsuite</span>
+        <span class="service-tech">Analytics</span>
+      </div>
+    </div>
+    <div class="service-card">
+      <i class="fa-solid fa-shield-halved"></i>
+      <h3>Cybersecurity & AI Solutions</h3>
+      <p><em>Coming Soon:</em> Smart, AI-driven tools to protect your business from digital threats and keep your systems secure 24/7.</p>
+      <div>
+        <span class="service-tech">AI Models</span>
+        <span class="service-tech">Ethical Hacking</span>
+        <span class="service-tech">Cloud Security</span>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- About -->
+<section id="about" class="feature-section">
+  <div class="container" style="text-align: center;">
+    <div style="width: 100%; text-align: center;">
+    <h2 class="rainbow-text">About Us</h2>
+    </div>
+    <p class="about-intro">We are a team of passionate professionals dedicated to delivering high-quality digital solutions. Our mission is to help businesses thrive in the modern world by providing innovative, reliable, and creative services tailored to their needs.</p>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Our Vision</h3>
+        <p>To become a trusted global partner for businesses seeking digital excellence.</p>
+      </div>
+      <div class="about-card">
+        <h3>Our Mission</h3>
+        <p>We aim to empower brands with cutting-edge technology and design to create meaningful connections with their audience.</p>
+      </div>
+      <div class="about-card">
+        <h3>Why Choose Us</h3>
+        <p>With expertise in web development, design, and digital strategy, we ensure every project exceeds expectations.</p>
+      </div>
+    </div>
+  </div>
+  <div class="feature-image">
+    <img src="About.jpg" alt="About Image">
+  </div>
+</section>
+
+  <!-- Portfolio -->
+<section id="portfolio" class="portfolio-section" style="padding:60px 20px; background-color:#0f172a; color:#fff;">
+  <h2 class="rainbow-text" style="text-align:center; margin-bottom:40px; font-size:2.5rem;">Our Portfolio</h2>
+  <div class="portfolio-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:30px; max-width:1100px; margin:0 auto;">
+    <!-- Project 1 -->
+    <div class="portfolio-card" style="background:#1f2937; border-radius:10px; overflow:hidden; box-shadow:0 6px 20px rgba(0,0,0,0.3);">
+      <a href="https://github.com/Fivoo/Web-Development" target="_blank" rel="noopener" style="color:inherit; text-decoration:none; display:block;">
+        <img src="web.png" alt="">
+        <div style="padding:20px;">
+          <h3 style="margin:0 0 10px; font-size:1.4rem;">Project One</h3>
+          <p style="color:#d1d5db; font-size:0.95rem;">A modern web application showcasing our expertise in frontend and backend integration.</p>
+        </div>
+      </a>
+    </div>
+    <!-- Project 2 -->
+    <div class="portfolio-card" style="background:#1f2937; border-radius:10px; overflow:hidden; box-shadow:0 6px 20px rgba(0,0,0,0.3);">
+      <a href="https://github.com/Fivoo/Graphic-Design" target="_blank" rel="noopener" style="color:inherit; text-decoration:none; display:block;">
+        <img src="graphic.jpg" alt="">
+        <div style="padding:20px;">
+          <h3 style="margin:0 0 10px; font-size:1.4rem;">Project Two</h3>
+          <p style="color:#d1d5db; font-size:0.95rem;">An engaging graphic design project that highlights our creative capabilities.</p>
+        </div>
+      </a>
+    </div>
+    <!-- Project 3 -->
+    <div class="portfolio-card" style="background:#1f2937; border-radius:10px; overflow:hidden; box-shadow:0 6px 20px rgba(0,0,0,0.3);">
+      <a href="https://github.com/Fivoo/Video-Editing" target="_blank" rel="noopener" style="color:inherit; text-decoration:none; display:block;">
+        <img src="video.jpg" alt="">
+        <div style="padding:20px;">
+          <h3 style="margin:0 0 10px; font-size:1.4rem;">Project Three</h3>
+          <p style="color:#d1d5db; font-size:0.95rem;">A professional video editing project delivering a compelling visual story.</p>
+        </div>
+      </a>
+    </div>
+    <!-- Project 4 -->
+    <div class="portfolio-card" style="background:#1f2937; border-radius:10px; overflow:hidden; box-shadow:0 6px 20px rgba(0,0,0,0.3);">
+      <a href="https://github.com/Fivoo/Animation" target="_blank" rel="noopener" style="color:inherit; text-decoration:none; display:block;">
+        <img src="animation.gif" alt="">
+        <div style="padding:20px;">
+          <h3 style="margin:0 0 10px; font-size:1.4rem;">Project Four</h3>
+          <p style="color:#d1d5db; font-size:0.95rem;">An animation project demonstrating smooth transitions and eye-catching visuals.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <a href="#" class="logo footer-logo">
+           <img src="logo.png" alt="Fivoo Logo" class="logo-img">
+          </a>
+          <p>Crafting innovative tech solutions for a digital world.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#features">Web Development</a></li>
+            <li><a href="#features">Graphic Designing</a></li>
+            <li><a href="#features">Video Editing</a></li>
+            <li><a href="#features">Social Media Management</a></li>
+            <li><a href="#features">Animation</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="mailto:fivoo.co@gmail.com">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us On</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61579095009796"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/fivooSite"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/fivoo.site/?utm_source=ig_web_button_share_sheet"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            <a href="https://github.com/Fivoo"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">&copy; 2025 Fivoo. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
